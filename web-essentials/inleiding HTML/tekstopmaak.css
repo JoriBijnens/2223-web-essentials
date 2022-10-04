@@ -1,0 +1,33 @@
+.a{
+    color: aqua;
+    font-family: Arial, cursive;
+    font-size: 15pt;
+    line-height: 20pt;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.b{
+    color: blueviolet;
+    font: normal normal 8pt/18pt Times, Serif;
+
+
+}
+
+.c{
+    color: darkred;
+    font: normal 18pt/16pt fantasy;
+}
+
+.d{
+    color: deeppink;
+    font: bold 30pt/20pt Serif
+
+}
+
+.e{
+    color: palegreen;
+    font: italic 13px/16px Symbol
+
+}
