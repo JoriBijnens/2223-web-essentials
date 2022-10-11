@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+
+        td {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(odd) {
+      background-color: yellow;
+        }
+        tbody tr th:first-child{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th colspan="3">Hogeschool PXL</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Naam</th>
+        <th>Voornaam</th>
+        <th>Beroep</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Jori</td>
+        <td colspan="2">Bijnens</td>
+    </tr>
+    <tr>
+        <td>y</td>
+        <td>z</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3">
+            Copyright, property of PXL
+        </td>
+    </tr>
+    </tfoot>
+
+
+</table>
+</body>
+</html>
